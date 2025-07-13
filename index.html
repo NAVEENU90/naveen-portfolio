@@ -26,7 +26,7 @@
     <!-- nav bar -->
     <div id="container">
         <!-- header -->
-        <nav>
+        <nav class="navbar">
             <!-- logo -->
             <h1 id="logo-name"><span id="logo-name">nav</span>een.</h1>
             <!-- nav links -->
@@ -34,31 +34,34 @@
                 <li class="nav-links"><a class="links" href="#home">Home</a> </li>
                 <li class="nav-links"><a class="links" href="#about">About</a> </li>
                 <li class="nav-links"><a class="links" href="#skillhead">Skills</a> </li>
+                <li class="nav-links"><a class="links" href="#services">Services</a> </li>
                 <li class="nav-links"><a class="links" href="#contacts">Contact</a> </li>
             </ul>
         </nav>
         <!-- home -->
         <section id="home">
-            <div class="home-content">
-                <h1 class="animate__animated animate__headShake" id="helotext">HELLO WORLD !</h1>
-                <h1 id="username">I'm <span id="lname">Naveen U</span></h1>
-                <p id="homeinfo">"A Web Developer. Each website project is unique with its own set of challenges. I
-                    treat each one with respect and dedication. I believe in transparency and honesty."
-                </p>
-                <a id="download" href="./images/NaveenUCV.pdf" download>VIEW RESUME</a>
-            </div>
-            <div class="groupimage">
-                <img id="homehero" src="./images/homeimage2-Photoroom.png" alt="no image">
+            <div class="homy">
+                <div class="home-content">
+                    <h1 class="animate__animated animate__headShake" id="helotext">HELLO WORLD !</h1>
+                    <h1 id="username">I'm <span id="lname">Naveen U</span></h1>
+                    <p id="homeinfo">"A Web Developer. Each website project is unique with its own set of challenges. I
+                        treat each one with respect and dedication. I believe in transparency and honesty."
+                    </p>
+                    <a id="download" href="./images/NaveenUCV.pdf" download>VIEW RESUME</a>
+                </div>
+                <div class="groupimage">
+                    <img id="homehero" src="./images/homeimage2-Photoroom.png" alt="no image">
+                </div>
             </div>
         </section>
         <!-- About -->
         <section id="about">
-            <div class="sectionHead">
+            <div data-aos="fade-up" class="sectionHead">
                 <h1 class="mainhead">ABOUT ME</h1>
                 <span class="subhead">A little bit about me.</span>
             </div>
             <div class="aboutbody ">
-                <div data-aos="fade-right"><img class="img1" src="./images/aboutme4.jpg" alt="no image"></div>
+                <div class="aboutimage" data-aos="fade-right"><img class="img1" src="./images/aboutme4.jpg" alt="no image"></div>
 
                 <div class="aboutContent">
                     <p>Hi, I’m Naveen U, a passionate web developer who loves creating clean, interactive, and
@@ -86,7 +89,7 @@
         </section>
         <!-- skills -->
         <section id="skillhead">
-            <div class="sectionHead">
+            <div data-aos="fade-up" class="sectionHead">
                 <h1 class="mainhead">SKILLS</h1>
                 <span class="subhead lastTitle">Technologies and Tools I use</span>
             </div>
@@ -122,9 +125,40 @@
                 </div>
             </div>
         </section>
-        <!-- Services -->
+        <!-- services -->
+
+        <section id="services">
+            <div data-aos="fade-up" class="sectionHead">
+                <h1 class="mainhead">WHAT I EXCEL AT</h1>
+                <span class="subhead">Here are the Services that i provide</span>
+            </div>
+            <div class="serviceslist">
+                <div data-aos="flip-left" data-aos-duration="1500" class="webdev">
+                    <img class="graphimg" src="./images/gard1.jpg" alt="no image">
+                    <div class="text-over-image">WEB DESIGN
+                        <p class="servicepara">User experiences make all the difference between good products and great ones.</p>
+                        <img class="image-on-card" width="400px" src="./images/web-design-obj2.png" alt="no image">
+                    </div>
+                </div>
+                <div data-aos="flip-left" data-aos-duration="1500" class="webdev">
+                    <img class="graphimg" src="./images/gard2.jpg" alt="no image">
+                    <div class="text-over-image">BACKEND DEV
+                        <p class="servicepara">The backbone of your application, ensuring seamless performance and data sercurity.</p>
+                        <img id="backendimg" src="./images/backendman.png" alt="no image">
+                    </div>
+                </div>
+                <div data-aos="flip-left" data-aos-duration="1500" class="webdev">
+                    <img class="graphimg" src="./images/gard4.webp" alt="no image">
+                    <div class="text-over-image">FRONTEND DEV
+                        <p class="servicepara">The face of your application, delivering interactive experiences with responsive interfaces.</p>
+                        <img id="frontendimg" width="400px" src="./images/frontendimg.png" alt="no image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contacts -->
         <section id="contacts">
-            <div class="sectionHead">
+            <div data-aos="fade-up" class="sectionHead">
                 <h1 class="mainhead">CONTACTS</h1>
                 <span class="subhead">Want to get in touch? contact me via my socials:</span>
             </div>
